@@ -1,0 +1,21 @@
+#container{
+    border: solid 1px black;
+
+}
+#heading{
+    border: solid 1px black;
+    text-align: center;
+}
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#flex-container img{
+
+    box-shadow: 10px 10px 0px rgb(102, 209, 111);
+}
+#flex-container img:hover{
+    box-shadow: 10px 10px 0px rgba(33, 10, 240)
+}
